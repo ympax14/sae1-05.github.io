@@ -1,0 +1,83 @@
+
+/* Petits écrans (ex téléphones) */
+@media screen and (max-width: 480px) {
+
+}
+
+/* Moyens écrans (ex tablette) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+
+/* Grands écrans (ex ordinateur) */
+@media screen and (max-width: 769px) {
+
+}
+
+/* Petits et moyens écrans */
+@media screen and (max-width: 768px) {
+
+}
+
+body {
+    background: #9b722a;
+    background: linear-gradient(90deg, rgba(155, 114, 42, 1) 0%, rgba(199, 162, 87, 1) 50%, rgba(237, 109, 83, 1) 100%);
+}
+
+#banniere {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+#logo {
+    display: flex;
+    height: 100px;
+    margin: 0;
+    float: left;
+}
+
+#page {
+    max-width: 100%;
+    margin: 0;
+}
+
+#navbar, #navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#navbar ul {
+    left: -1000em;
+    position: absolute;
+}
+
+#navbar li:hover > ul {
+    left: 0;
+}
+
+#navbar a {
+    display: block;
+    width: 129px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: beige;
+    color: black;
+    text-decoration: none;
+}
+
+#navbar li {
+    display: inline-block;
+    position: relative;
+}
+
+#conteneur {
+    display: block;
+}
+
+#infos {
+    display: block;
+}
